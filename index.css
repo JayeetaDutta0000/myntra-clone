@@ -5,6 +5,7 @@
     Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
+/* Nav Bar */
 header {
   display: flex;
   background-color: #ffffff;
@@ -77,4 +78,29 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Main Section */
+.banner_container {
+  margin: 40px 0;
+}
+.banner_image {
+  width: 100%;
+}
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 50em;
+  font-weight: 700;
+}
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sale_item {
+  width: 250px;
 }
